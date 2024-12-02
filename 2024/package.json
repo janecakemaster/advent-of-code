@@ -1,0 +1,20 @@
+{
+  "name": "2024",
+  "version": "1.0.0",
+  "description": "advent of code 2024 solutions",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "day": "tsx index.ts"
+  },
+  "keywords": [
+    "code golf",
+    "advent of code"
+  ],
+  "author": "@janecakemaster",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
