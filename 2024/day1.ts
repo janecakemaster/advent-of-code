@@ -16,11 +16,16 @@ export function day1() {
   array1.sort();
   array2.sort();
 
-  let result = 0;
+  let part1 = 0;
+  let part2 = 0;
   for (let i = 0; i < array1.length; i++) {
     if (array1[i] !== array2[i]) {
-      result += Math.abs(array1[i] - array2[i]);
+      part1 += Math.abs(array1[i] - array2[i]);
     }
+
+    const repeats = array2.filter((value) => value === array1[i]);
+    part2 += array1[i] * repeats.length;
   }
-  console.log("Result:", result);
+
+  console.log({ part1, part2 });
 }
