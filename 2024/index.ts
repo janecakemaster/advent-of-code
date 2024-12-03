@@ -1,9 +1,9 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
 import { day1 } from "./day1";
+import { day2 } from "./day2";
 
 const functions = {
   day1,
+  day2
 };
 
 const functionName = process.argv[2];
