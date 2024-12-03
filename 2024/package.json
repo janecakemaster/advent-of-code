@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "day": "tsx index.ts"
+    "start": "tsx index.ts"
   },
   "keywords": [
     "code golf",
@@ -16,5 +16,8 @@
   "dependencies": {
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
   }
 }
